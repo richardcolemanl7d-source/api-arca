@@ -1,0 +1,36 @@
+```
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHP specific
+*.php~
+*.swp
+
+# Cache and compiled files
+.cache/
+*.cache
+.php_cs.cache
+
+# Testing
+.phpunit.result.cache
+
+# Composer
+composer.lock
+```
