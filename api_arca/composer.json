@@ -1,0 +1,36 @@
+{
+    "name": "api_arca/gateway",
+    "description": "Gateway ARCA multiempresa para emisión de comprobantes electrónicos",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.3",
+        "ext-pdo": "*",
+        "ext-soap": "*",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiArca\\App\\Controllers\\": "app/Controllers/",
+            "ApiArca\\App\\Services\\": "app/Services/",
+            "ApiArca\\App\\Repositories\\": "app/Repositories/",
+            "ApiArca\\App\\DTO\\": "app/DTO/",
+            "ApiArca\\App\\Core\\": "app/Core/",
+            "ApiArca\\App\\Middleware\\": "app/Middleware/",
+            "ApiArca\\App\\Crypto\\": "app/Crypto/",
+            "ApiArca\\App\\Helpers\\": "app/Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "API ARCA Gateway"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
